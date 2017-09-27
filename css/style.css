@@ -1,0 +1,27 @@
+body{
+	background-color: #ddd;
+	margin: 0;
+	padding: 0;
+}
+.agenda{
+	padding:15px 15px;
+	color: white;
+}
+
+.header-default{
+	background-color: #b4e391; // Old browsers
+@include filter-gradient(#b4e391, #b4e391, horizontal); // IE6-9 fallback on horizontal gradient
+@include background-image(linear-gradient(left top, #b4e391 0%,#61c419 50%,#b4e391 100%));
+}
+
+.select{
+	margin: auto;
+}
+
+.wrapper{
+	align-items: center;
+	background-color: blue;
+	display: flex;
+}
+
+
